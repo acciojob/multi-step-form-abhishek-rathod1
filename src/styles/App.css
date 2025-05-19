@@ -1,1 +1,29 @@
 
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  /* font-size: 32px; */
+  border: 1px solid black;
+  width: 40vw;
+  padding: 20px;
+
+  background-color: lightskyblue;
+  border-radius: 20px;
+  
+}
+
+.form-container input{
+  font-size: 32px;
+  margin: 20px;
+  background-color: transparent;
+  border: 1px dashed blue;
+  /* color: black; */
+  padding: 10px;
+}
+
+button{
+  font-size: 18px;
+  margin: 20px;
+  padding: 10px 50px;
+}
