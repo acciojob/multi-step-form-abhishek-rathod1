@@ -38,6 +38,7 @@ const Step = ({ step, formData, setFormData, nextStep, prevStep, handleSubmit })
             <input
               type="text"
               id="model"
+              name="model"
               placeholder="Car Model"
               value={formData.model}
               onChange={handleChange}
